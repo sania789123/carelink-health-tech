@@ -1,0 +1,22 @@
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+
+# Uploaded files and private data
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database files
+backend/db/*.sqlite*
+
+# Build files
+dist/
+
+# Operating system files
+.DS_Store
